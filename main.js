@@ -1,4 +1,6 @@
+
 $("#btn").click(() => {
+
     let user = document.querySelector("#username").value
     let password = document.querySelector("#password").value
 
@@ -7,3 +9,8 @@ $("#btn").click(() => {
         let p = document.querySelector("#magic").text(texto)
     }
 })
+
+// JQUERY
+// $("$btn")
+// .click(()=>{})
+// .text()
