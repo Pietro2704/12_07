@@ -1,25 +1,25 @@
 # Aprendendo a fazer forks
 
 ## Fazer o fork
-Entrar no site: https://github.com/Pietro2704/12_07
+- Entrar no site: https://github.com/Pietro2704/12_07
 
-clicar no botão fork e criar
+- clicar no botão fork e criar
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+- git clone https://github.com/seu-usuario/seu-repositorio.git
 
-cd 12_07
-git remote add upstream https://github.com/Pietro2704/12_07.git
-git remote -v
-git fectch
+- cd 12_07
+- git remote add upstream https://github.com/Pietro2704/12_07.git
+- git remote -v
+- git fetch
 
-git branch nova_branch
-git switch nova_branch
+- git branch nova_branch
+- git switch nova_branch
 
-(alterações) -> index.html
-git add .
-git commit -m 'fiz alterações'
-git push origin nova_branch
-voltar no github e apertar o compare and pull request
+- (alterações) -> index.html
+- git add .
+- git commit -m 'fiz alterações'
+- git push origin nova_branch
+- voltar no github e apertar o compare and pull request
 
-git switch main
-git fetch upstream
+- git switch main
+- git fetch upstream
