@@ -1,3 +1,4 @@
+// DOM
 let botao = document.querySelector("#btn")
 
 botao.addEventListener("click", () => {
@@ -9,3 +10,8 @@ botao.addEventListener("click", () => {
         let p = document.querySelector("#magic").textContent = texto
     }
 })
+
+// JQUERY
+// $("$btn")
+// .click(()=>{})
+// .text()
