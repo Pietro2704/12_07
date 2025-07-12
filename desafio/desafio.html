@@ -8,5 +8,18 @@
 <body>
     <!-- To do list -->
     <input type="text" name="tarefa" id="tarefa">
+    <button id="btn">Enviar</button>
     <ul id="lista"></ul>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", ()=>{
+            let valor_input = document.getElementById("tarefa").value
+
+            let li = document.createElement("li")
+            li.textContent = valor_input
+
+            let lista = document.getElementById("lista")
+            lista.appendChild(li)
+        })
+    </script>
 </html>
