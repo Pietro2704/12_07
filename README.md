@@ -19,3 +19,7 @@ git switch nova_branch
 git add .
 git commit -m 'fiz alterações'
 git push origin nova_branch
+voltar no github e apertar o compare and pull request
+
+git switch main
+git fetch upstream
